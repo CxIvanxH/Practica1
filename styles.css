@@ -1,27 +1,59 @@
-.nombre {
-background-color: gray;
+.tabla
+{
+    border-style: outset;
+    border-color: white;
 
 }
-.first {
-text-align: center; 
-color: red;
+.bkgr{
+    background-color: gray;
+      background-image: url(1.jpg);
+}
+  
+.cntdo {
+    text-align: center;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 7px;
+    background-color: transparent;
+    
+}
+.txtbdis{
+   
+    width: 85%;
+    margin-bottom: 14px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px gray;
+}
+    
+.dial
+{
+    width: 92%;
+    margin: auto;
+    background: yellow;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
 
 }
-.ww {
-width: 50% ;
-background-image: url(C:\Users\Priscila\Documents\GitHub\Practica1\ww2.jpg);float: left;
+.btn{
+     margin-bottom: 14px;
+     text-align: center;
+    width: 45%;
+    background: red;
+    color: #fff;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
 
+.btn:active{
+    transform: scale(1.05);
 }
-.text1 {
-text-align: center;color: blue;"
-}
-.ww {
-width: 50%; 
-border-radius: 50%; 
-margin-left: 25%;
-}
-.info {
-width: 50%;
-background-color: gray;
-float: center;"
-}
+
